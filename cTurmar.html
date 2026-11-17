@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Turma</title>
+    <link rel="stylesheet" href="Menu.css">
+    <link rel="stylesheet" href="cturma.css">
+</head>
+<body>
+
+
+<body>
+    <header>
+      
+    <nav class="nav-menu">
+
+        <ul class="lista-menu">
+           <li><a href="cProjeto.html">Cadastro Projetos</a></li>
+           <li><a href="cAluno.html">Cadastro Alunos</a></li>
+              <li><a href="cTurma.html">Cadastro Turmas  </a></li>
+             <li><a href="lProjeto.html">Listagem Projetos</a></li>
+               <li><a href="lAluno.html">Listagem Alunos</a></li>
+                 <li><a href="lTurma.html">Listagem Turmas</a></li>
+            <li><a href="#">Sair</a></li>
+
+       </ul>
+       </nav>
+    </header>
+   
+</body>
+</html>
+
+    
+
+    <main>
+        <section class="cadastro">
+            <h1>Cadastrar turma</h1>
+            <p class="subtitulo">Preencha os dados para criar uma nova turma.</p>
+
+            <form action="/Turmas/Create" method="post">
+                <div class="campo">
+                    <label for="Nome">Nome da turma</label>
+                    <input type="text" id="Nome" name="Nome" placeholder="Ex.: Desenvolvimento de Sistemas" required>
+                </div>
+
+                <div class="campo">
+                    <label for="Ano">Ano</label>
+                    <input type="text" id="Ano" name="Ano" placeholder="Ex.: 2026" maxlength="4" required>
+                </div>
+
+                <div class="acoes">
+                    <a href="/Turmas" class="btn-voltar">Cancelar</a>
+            <button type="button" onclick="window.location.href='index.html'">
+    Cadastrar
+</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>

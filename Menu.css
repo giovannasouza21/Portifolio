@@ -1,0 +1,56 @@
+:root {
+    --vanilla: #D8BCA6;
+    --caramel: #A87743;
+    --almond: #B79A7F;
+    --coffee: #6D3914;
+    --mocca: #84593D;
+    --espresso: #4C2808;
+}
+
+*header img{
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.nav-menu{
+    display: flex;
+    background-color:#A87743;
+    padding: 12px;
+     position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000
+
+ 
+}
+
+.nav-menu img{
+    height: 80px;
+    border-radius: 200px;
+    width: 130px;
+}
+
+a{
+    text-decoration: none;
+    color:    #6D3914;
+
+}
+li,ul{
+    list-style: none;
+    padding: 0;
+}
+
+.lista-menu{
+    display: flex;
+    padding: 0;
+    width: 80%;
+    list-style: none;
+    justify-content: space-around;
+    align-items: CENTER;
+}

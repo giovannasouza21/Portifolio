@@ -1,0 +1,73 @@
+:root {
+    --vanilla: #D8BCA6;
+    --caramel: #A87743;
+    --almond: #B79A7F;
+    --coffee: #6D3914;
+    --mocca: #84593D;
+    --espresso: #4C2808;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--vanilla);
+    margin: 0;
+    padding: 30px 15px;
+}
+
+
+.caixa {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    border: 3px solid var(--coffee);
+}
+
+h1 {
+    text-align: center;
+    color: var(--espresso);
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 4px;
+    color: var(--coffee);
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--almond);
+    border-radius: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border: 2px solid var(--caramel);
+}
+
+button {
+    width: 100%;
+    margin-top: 22px;
+    padding: 12px;
+    background-color: var(--coffee);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--mocca);
+}
+
